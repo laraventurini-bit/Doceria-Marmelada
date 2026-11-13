@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lara Gabrielle T. Venturini">
+    <meta name="keywords" content="Site doceria Marmelada">
+    <meta name="description" content="Pagina login">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+</head>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            color: #F0F9F5;
+        }
+
+    .barra{
+        background-color: #7A5C39;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra2{
+        background-color: #E8DCC8;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: #7A5C39;
+        gap: 400px;
+        background-color: #E8DCC8;
+        padding: 10px;
+    }
+
+    .login{
+
+        align-items: center;
+        background-color: #A16945;
+        color: white;
+        height: 470px;
+        width: 510px;
+        text-align: flex-start;
+        border-radius: 10px;
+        padding-left: 50px;    
+        margin-top: 30px;  
+    }
+
+    .textos{
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    /* input[type="text"]{
+        background-color: #E8DCC8;
+        align-items: center;
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+    } */
+
+
+        
+    .login{
+    display: flex;
+        justify-content: left;
+        flex-direction: row;
+        height: 400px;
+        align-items: left;
+        gap: 50px;
+        
+    }
+    
+
+    
+    footer{
+        background-color: #E8DCC8;
+        display: flex;
+        flex-direction: row;
+        gap: 400px;
+        color: #A74D36;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        gap: 190px;
+        padding: 30px;
+        margin-top: 80px;
+        height: 400px;
+        
+    }
+
+
+    .textoCaixa{
+        margin-top: 80px;
+    }
+
+    .login input {
+        color: #C88357;
+        background-color:#E8DCC8;
+        border-radius: 5px;
+        gap: 50px;
+        margin: 0;
+        height: 30px;
+        width: 200px; 
+    } 
+
+    input[type="submit"]{
+        width: 100px;
+    }
+
+    
+    @media(max-width:1070px){
+        .menu{
+            gap: 50px;
+        }
+    }
+
+    @media(max-width:860px){
+        .login{
+            width: 400px;
+        }
+    }
+
+    @media(max-width:1240px){
+        .rodape{
+            flex-wrap: wrap;
+            height: 500px;
+            gap: 50px;
+        }
+    }
+
+    @media(max-width:1240px){
+        .rodape{
+            height: 800px;
+        }
+    }
+
+
+    </style>
+
+
+<body body alink="#A74D36" link="#A74D36" vlink="#A74D36">
+
+    <header>
+    
+   <div class="menu">
+        <div class="pagina"><a href="inicio.html">Página inicial</a></div>
+        <div class="pagina"><a href="login.html">Login</a></div>
+        <div class="pagina"><a href="cardapio.html">Cardápio</a></div>
+    </div>
+
+    
+    
+        <div class="barra">
+            <p>Faça agora seu pedido online</p>
+        </div>
+
+        <div class="barra2">
+            <p align="center"> 
+                <img src="watermarked_img_11460612892499163942 (1).png" width="250">
+            </p>
+        </div>
+
+    </header>
+
+
+    <main>
+            
+    <div class="login">
+        <div class="caixa">
+               
+        <div class="item2">
+            NOME <br>
+            <input type="name"> <br><br><br>
+        </div>
+    
+    <div class="item2">
+            E-MAIL<br>
+            
+            <input type="email" id="email" required> <br><br><br>
+        </div>
+
+
+    <div class="item2">
+            SENHA<br>
+            <input type="password" id="password" required> <br><br><br>
+        </div>
+
+    <div class="item2">
+        <input type="submit" value="CADASTRAR">
+    </div>
+        </div>
+        
+
+    </main>
+
+
+<br><br><br>
+    <footer>
+
+    <div class="rodape">
+
+    
+    <div class="bloco1">
+        <h1>DOCERIA MARMELADA</h1>
+        <p>CNPJ: 00.000.000/0000-00<br><br>
+        Visite nossa loja <br><br>
+        <input type="button" value="Visite nossa loja"></p>
+        </div>
+    
+
+    <div class="bloco1">
+        <h2>CONTATO</h2><br>
+        <a>Doceriamarmelada@gmail.com</a><br>
+        (77)0 0000-0000<br><br>
+        Ter a Dom, 10h às 19h
+    </div>
+
+    <div class="bloco2">
+        <h2>SITE</h2> <br>
+        Inicio <br>
+        Quem somos <br>
+        Cardápio <br>
+        Login <br>
+    </div>
+
+    <div class="bloco3">
+        <h2>PRODUTOS</h2> <br>
+        Tradiconais <br>
+        Tortas <br>
+        Bolos <br>
+        Folheados <br>
+        Presentes <br>
+    </div>
+
+ </div>
+
+    </footer>
+    
+</body>
+</html>
